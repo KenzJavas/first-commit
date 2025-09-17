@@ -19,7 +19,11 @@ main() {
   // 3,14 * 10 * 10
 
 
-  final
+  final nama = "kenzie";
+  final namaa = "Javas";
+
+  int = 14;
+  int = 15;
 
   print(("namaku ${namalengkap}"))
 
