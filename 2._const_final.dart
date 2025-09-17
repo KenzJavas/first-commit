@@ -19,11 +19,11 @@ main() {
   // 3,14 * 10 * 10
 
 
-  final nama = "kenzie";
-  final namaa = "Javas";
+  final nama = "kenzie"; //immutable
+  final namaa = "Javas";//immutable
 
-  int = 14;
-  int = 15;
+  int umur = 14;   //mutable
+  int umurku = 15; //mutable
 
   print(("namaku ${namalengkap}"))
 
