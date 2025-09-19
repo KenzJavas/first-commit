@@ -27,5 +27,5 @@ void main(List<String> args) {
   //nama belakang  = String
   //tinggi badan  = double
   //umur         = int
-  //menikah    = bool
+  // //menikah    = bool
 }

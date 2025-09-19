@@ -20,6 +20,6 @@ void main(List<String> args) {
   // \unicode
   print('\u{1F600} \u{2665} \u{1F61D}');//emoji smile
 
-  print('Hello \nDunia');
+  // // print('Hello \nDunia');
 
 }
