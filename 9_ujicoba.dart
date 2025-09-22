@@ -8,10 +8,11 @@ void main(List<String> args) {
   print('2 * $pi * $rusuk = ${2 * pi * rusuk}');
 
 
-  var x = 7;
-  var y = 2;
-
-  print('$x % $y = ${x%y} == 0 = genap');
-  print('$x % $y = ${x%y} != 0 = ganjil');
+  var number = 10;
+  var genap  = number % 2 == 0;
+  print('apakah $number adalah bilangan genap? $genap');
+  var ganjil = number % 2 != 0;
+  print('apakah $number adalah bilangan ganjil? $ganjil');
+  
 
 }
