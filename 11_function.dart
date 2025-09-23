@@ -28,6 +28,8 @@ void main(List<String> args) {
   birthDay3("Guerero", age: 25);
   birthDay3("Vladimir", weight: 66.6);
   birthDay3("Kastelo", height: 170.6);
+  pritn('luasLingkaran $luasLingkaran(10);')
+
 }
 
 //function tanpa retrun
@@ -49,3 +51,23 @@ void birthDay3(String name, {
   print("""HappyBirthDay $name, yang ke $age,
           beratmu $weight dan tinggimu $height""");
 }
+
+
+/**
+ * Arrow Function
+ * with retrun value
+ * 
+ */
+
+const pi = 3.14; //Variable konstant global
+
+num luasLingkaran(num r){
+  retrun 3.14 * r * r;
+}
+
+//arrow function
+num luasLingkaran(num r) => 2 * pi * r;
+
+
+num luasPersegi(num sisi) => sisi * siis;
+
