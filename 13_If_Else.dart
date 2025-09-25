@@ -33,6 +33,17 @@ void main(List<String> args) {
     print('Toko Tutup Permanent');
   }
 
+
+  /**
+   * buat program menggunakan stdin (input) nilaiUjian
+   * var nilaiUjian type data num ketentan nilai
+   * hasilnya ada di bawah ini
+   * jika nilai kurang dari noll maka outputnya \
+   * tidak terdefinisi (tidak terdaftar)
+   * jika nilai lebih dari 100 maka outputnya 
+   * "ini adalah cheater"
+   */
+
   /**
    * Nilai E = <= 70 //Kurang dari sama dengan 70 (E)
    * Nilai D = 71-75 //70-75 Nilai (D)
