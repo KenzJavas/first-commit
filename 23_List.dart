@@ -1,7 +1,8 @@
 void main(List<String> args) {
   /**
    * List menyimpan data secara berurutan dan diakses
-   * melalui index, index di baca melalui index ke 0
+   * melalui index, index di baca / dimulai
+   *  melalui index ke 0
    * [] => square bracket
    * {} => curly bracket
    * () => round bracket
@@ -41,7 +42,7 @@ void main(List<String> args) {
     'tempe',
     'ikan',
     'tahu'
-  ] 
+  ] ;
 
   var allYoucaneat = [breakfast, Lunch];   
   print(allYoucaneat);
@@ -53,4 +54,13 @@ void main(List<String> args) {
    * spreed list digunakan untuk 
    * menggabungkan dua list menjadi satu
    */
+
+  /**
+   * 1.Buatlah list yang berisi 5 nama dari A-E
+   * - dan tampilkan data dari index 3
+   * - tambahkan nama bari, lalu hapus nama pertama
+   * - cek apakah nama Eka ada dalam list
+   */
+
+  
 }
