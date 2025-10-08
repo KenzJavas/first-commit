@@ -29,7 +29,7 @@ void main(List<String> args) {
    */
 
   /**
-   * Encapsulation
+   * 1. Encapsulation
    * diibaratkan sebagai kantong yang berfungsi untuk
    * mengumpulkan data dan metode yang berhubungan
    * kedalam sebuah object  
@@ -63,4 +63,50 @@ class Manusia {
   void belajar() {}
 
   
+  /**
+   * 2. Abstraction
+   * Abstraction juga bisa dibilang merupakan penerapan alami
+   * dari encapsulation.
+   * Abstraksi berarti sebuah objek hanya menunjukan operanya
+   * secara high-level.
+   * 
+   * MIsalnya kita cukup tahu bagaimana Ucup Guerero makan, namun
+   * kita tidak perlu tahu seperti apa metabolisme biologis
+   * dalam tubuh Ucup Guereroyang membuat berat badanya
+   * bertambah
+   */
+
+
+  /**
+   * 3. Inheritance
+   * Inheritance beberapa objek bisa memiliki
+   * beberapa karakteristik atau perilaku yang sama'
+   * 
+   * namun, bukanlah objek yang sama.
+   * 
+   * ex: Ucup Guerero memiliki sifat dan perilaku yang umum 
+   * dengan manusia lainnya
+   * seperti memiliki , warna, berat, tinggi, dsb
+   * 
+   * maka dari itu Ucup Guerero adalah sebagai object turunan
+   * (subclass) mewarisi sifat dan perilaku dari
+   * object lainnya (Superclass)
+   * 
+   * Begitu juga dengan object Vladimir juga mewarisi sifat
+   * dan perilaku yang sama, namun Vladimir bisa berenang
+   * kalau Ucup Guerero tidak bisa berenang
+   */
+
+  /**
+   * 4. Polymorphism
+   * dalam bahasa Yunani berarti "banyak bentuk"
+   * sederhananya objek dapat memiliki bentuk
+   * atau implementasi yang berbeda-beda pada suatu method
+   * yang sama.
+   * 
+   * Semua manusia bergerak, namun tentu gerak Ucup Guerero
+   * dan Vladimir memiliki cara gerak yang berbeda.
+   * Perbedaan bentuk atau cara gerak tersebut merupakan
+   * contoh dari polymorphism.
+   */
 }
