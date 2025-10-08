@@ -1,4 +1,5 @@
-import 'Character.dart';
+import '29_constructor.dart';
+// import 'Character.dart';
 import '27_class_animal.dart';
 import '28_class_plants.dart';
 
@@ -43,7 +44,9 @@ void main(List<String> args) {
 
 
   //constructor
-  var hewan = hewan(name, color, weight);
+  //ketika memanggil kelas dengan constructor
+  //maka kita harus mengisi value darii properties
+  var hewan = Hewan('Ucup Guerero', "Orange white", 3.5);
   // Hewan(this.name, this.color, this.weight);
 
 
