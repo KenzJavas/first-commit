@@ -5,8 +5,8 @@ class Hewan {
   String? color;
   double? weight;
 
-  //contructor
-  Hewan(this.name, this.color, this.weight);
+  // //contructor
+  // Hewan(this.name, this.color, this.weight);
 
    //mendeklarasikan constructor
   // Hewan(String name, String color, double weight){
@@ -33,7 +33,7 @@ class Hewan {
 
   //methds
   void eat(){
-    print('$name sedang makan ayam');
+    print('$name sedang makan ayam berwarna $color');
   }
 
   void sleep(){

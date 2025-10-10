@@ -46,13 +46,16 @@ void main(List<String> args) {
   //constructor
   //ketika memanggil kelas dengan constructor
   //maka kita harus mengisi value darii properties
-  var hewan = Hewan('Ucup Guerero', "Orange white", 3.5);
+  //penggunaan CASEcade Notation
+  var hewan = Hewan('Ucup Guerero', "Orange white", 3.2)
+   ..name = "Vladimir"
+   ..color = "Red"
+   ..eat();
+  
+
+
+
   // Hewan(this.name, this.color, this.weight);
-
-
-
-
-
 
   
 }
